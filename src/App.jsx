@@ -15,7 +15,6 @@ function AppContent() {
       const mockUsers = generateUsers(10000);
       setUsers(mockUsers);
       setLoading(false);
-      console.log("Users loaded:", mockUsers.length);
     }, 500);
   }, [setUsers, setLoading]);
 
